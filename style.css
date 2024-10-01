@@ -1,0 +1,195 @@
+-+86/
+* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    background-color: #121111;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(204, 219, 237);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0f1010;
+}
+
+/* Header Section */
+header {
+    background-color: #4d5d9d;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+header span {
+    color: #1c1b1a;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #accbf4;
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+    color: #333;
+}
+
+.section p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* About Me Section */
+.profile-pic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+/* Education Section */
+#education ul {
+    list-style: none;
+}
+
+#education li {
+    margin-bottom: 20px;
+}
+
+#education h4 {
+    color: #007BFF;
+}
+
+/* Work Experience Section */
+#work-experience {
+    margin-bottom: 20px;
+}
+
+/* Other Professional Qualifications Section */
+#qualifications {
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.project-item {
+    margin-bottom: 30px;
+}
+
+.project-item h3 {
+    color: #007BFF;
+}
+
+/* Skills Section */
+.skills-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-list li {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Hobbies Section */
+#hobbies ul {
+    list-style: none;
+}
+
+/* Resume Section */
+.resume-link {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.resume-link:hover {
+    background-color: #0056b3;
+}
+
+/* Contact Section */
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact input, #contact textarea {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 30px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+#contact button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
